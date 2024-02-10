@@ -1,0 +1,60 @@
+body{
+    background-color: blue;
+}
+.container  {
+    height: 80vh;
+    width: 50vw;
+    background-color: azure;
+    margin-inline: auto;
+    margin-top: 10vh;
+    padding: 40px 30px 40px 30px;
+    box-sizing: border-box;
+    position: relative;
+}
+.next{
+    padding: 10px 30px 10px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px black;
+}
+.timer{
+    height: 40px;
+    width: 9vw;
+    padding-inline: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 50px;
+}
+.head h3{
+    font-weight:100;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.options button{
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    border: solid 1px grey;
+    background-color: aliceblue;
+}
+.question{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
